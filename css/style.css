@@ -1,0 +1,137 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+  font-family: 'Avenir', sans-serif;
+  font-size: 15px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.fa {
+  color: black;
+}
+
+/*phone screen*/
+.container {
+    margin: 0 auto;
+    width: 375px;
+    height: 667px;
+    background-color: #FFFFFF;
+}
+
+/* Status bar*/
+.status {
+  display: inline-flex;
+  background-color: #FAFAFA;
+  font-size: .7rem;
+  width: 100%;
+  height: 20px;
+  color: black;
+  margin: 0;
+}
+
+.signal {
+  padding: 0 8px;
+}
+
+.wifi {
+  padding: 0 8px;
+}
+
+.clock {
+  padding: 0 75px 0 75px;
+}
+
+.bluetooth {
+  padding: 0 10px 0 10px;
+}
+
+.battery {
+  padding-left: 4px;
+}
+
+/*nav bar*/
+
+nav {
+  display: inline-flex;
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 44px;
+}
+
+.arrow-left {
+  margin: auto 0;
+  padding-left: 7px;
+}
+
+#blue {
+  color: #007AFF;
+}
+
+.route {
+  margin: auto 0;
+  color: #007AFF;
+  padding-left: 6px;
+  font-size: 17px;
+}
+
+.stop {
+  margin: auto 0;
+  padding-left: 35px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* List of bus lines that serve this stop */
+
+.line {
+  display: inline-block;
+  overflow: scroll;
+  background-color: #4A4A4A;
+  border-radius: 2rem;
+  width: 2.3rem;
+  color: white;
+  padding: 2.5px;
+  text-align: center;
+  font-weight: heavy;
+  margin-bottom: 4px;
+}
+
+.bus-lines .serviced-by .ticker {
+  background-color: #FFFFFF;
+}
+
+.serviced-by {
+  display: inline-flex;
+  margin: .5rem;
+}
+
+.serviced-by h3 {
+  margin: auto 0;
+  padding-left: .5rem;
+}
+
+/*upcoming bus information*/
+
+.ticker {
+  display: inline-flex;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.ticker-line {
+  margin-left: 10px;
+}
+
+/*.arrows {
+  z-index: 1;
+}
+
+iframe {
+  z-index: 2;
+}
