@@ -20,7 +20,7 @@
           <i class="fa fa-wifi" aria-hidden="true"></i>
         </div>
         <div class="clock">
-          <h4>10:41PM</h4>
+          <h4>9:41AM</h4>
         </div>
         <div class="bluetooth">
           <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
@@ -46,23 +46,23 @@
   </div>
 <!--map-->
     <section class="map">
+      <div class="arrows"
+        <i class="fa fa-arrows" aria-hidden="true"></i>
+      </div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.447561128892!2d-87.63003778455874!3d41.8832308792217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca5258d93cf%3A0x5637a990ae98b8bb!2sN+State+St+%26+E+Washington+St+%26+W+Washington+St%2C+Chicago%2C+IL+60602!5e0!3m2!1sen!2sus!4v1511827559829" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
       </iframe>
     <!-- need to use z index to get this icon over iframe, set arrows background color to grey-->
-    <!--<div class="arrows"
-      <i class="fa fa-arrows" aria-hidden="true"></i>
-    </div>-->
     </section>
 <!--serviced by title-->
     <section class="serviced-by">
       <div class="bus">
         <i class="fa fa-bus fa-2x" aria-hidden="true"></i>
       </div>
-      <h3>Serviced by:</h3>
+      <h3><strong>Serviced by:</strong></h3>
     </section>
 <!--lines serving stop-->
-    <div class="bus-lines"> <!--set overflow so can scroll left-->
-      <div class="line sixty">
+    <div class="bus-lines">
+      <div class="line">
         <h3>60</h3>
       </div>
       <div class="line">
@@ -91,37 +91,52 @@
       </div>
     </div>
 <!--upcoming bus information-->
-<div class="ticker">
-  <h3>In <strong>2</strong>min </h3>
-    <div class="line">
-      <h3>60</h3>
+<div class="upcoming">
+  <div class="ticker">
+    <div class="time">
+      <h3>In <strong>2</strong> min </h3>
     </div>
-  <h3><strong>East</strong>bound local, runs every <strong>20</strong> minutes</h3>
-</div>
-<div class="ticker">
-  <h3>In <strong>2</strong>min </h3>
-    <div class="line">
-      <h3>124</h3>
+      <div class="line approaching">
+        <h3>60</h3>
+      </div>
+    <div class="direction">
+      <h3><strong>East</strong>bound local, runs every <strong>20</strong> minutes</h3>
     </div>
-  <h3><strong>East</strong>bound local, runs every <strong>10</strong> minutes</h3>
-</div>
-<div class="ticker">
-  <h3>In <strong>2</strong>min </h3>
-    <div class="line">
-      <h3>151</h3>
+  </div>
+  <div class="ticker">
+    <div class="time">
+      <h3>In <strong>5</strong> min </h3>
     </div>
-  <h3><strong>North</strong>bound local, runs every <strong>16</strong> minutes</h3>
-</div>
-<div class="ticker">
-  <h3>In <strong>2</strong>min </h3>
-    <div class="line">
-      <h3>J14</h3>
+      <div class="line approaching">
+        <h3>124</h3>
+      </div>
+      <div class="direction">
+        <h3><strong>East</strong>bound local, runs every <strong>10</strong> minutes</h3>
+      </div>
+  </div>
+  <div class="ticker">
+    <div class="time">
+      <h3>In <strong>7</strong> min </h3>
     </div>
-  <h3><strong>South</strong>bound local, runs every <strong>15</strong> minutes</h3>
-</div>
-
-
-
+      <div class="line approaching">
+        <h3>151</h3>
+      </div>
+      <div class="direction">
+        <h3><strong>North</strong>bound local, runs every <strong>16</strong> minutes</h3>
+      </div>
+  </div>
+  <div class="ticker">
+    <div class="time">
+      <h3>In <strong>9</strong> min </h3>
+    </div>
+      <div class="line approaching">
+        <h3>J14</h3>
+      </div>
+      <div class="direction">
+        <h3><strong>South</strong>bound local, runs every <strong>15</strong> minutes</h3>
+      </div>
+    </div>
+  </div>
 
   </section>
   </body>
